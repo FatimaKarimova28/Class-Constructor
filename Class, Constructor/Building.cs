@@ -14,6 +14,13 @@ namespace Class__Constructor
         public byte area;
         public string address;
 
+        public Building(string name, byte height, byte area)
+        {
+            this.name = name;   
+            this.height = height;   
+                this.area = area;
+        }
+
 
         public string GetVolume()
         {

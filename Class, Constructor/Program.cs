@@ -27,19 +27,15 @@ namespace ClassConstruction
 
 
 
-            var house = new Building();
-            house.name = "Akvarium";
-            house.height = 100; 
-            house.area= 100;
+            var house = new Building("Akvarium", 100, 100);
+            
 
 
             Console.WriteLine(house.GetVolume());
 
 
-            var pinkHouse = new Building();
-            pinkHouse.name = "My dream";
-            pinkHouse.height = 55;
-            pinkHouse.area = 100;
+            var pinkHouse = new Building("My dream", 55, 100);
+            
             Console.WriteLine(pinkHouse.GetVolume());   
 
         }
